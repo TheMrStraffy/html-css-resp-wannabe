@@ -127,3 +127,49 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+ 
+/* this removes the horizontal scrolling bar */
+ @media (max-width: 1160px){
+
+    .container {
+    width: 100%;
+    }
+
+ }
+
+
+ @media (max-width: 767px){
+    
+    .container {
+    width: 100%;
+    }
+
+ }
+
+/* FOR MOBILE */
+
+ @media (max-width: 479px){
+
+    .container {
+    width: 100%;
+    }
+    .row{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .lessons .col{
+        width: 100%;
+        padding: 40px;
+    }
+    .steps .col{
+        width: 100%;
+        padding: 40px;
+    }
+    .why-us .col{
+        width: 100%;
+        padding: 40px;
+    }    
+ }
+
+ 
